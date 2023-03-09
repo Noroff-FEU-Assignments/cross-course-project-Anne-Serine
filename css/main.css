@@ -1,0 +1,60 @@
+body {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.for-him h2 {
+  font-family: "Calligraffitti"; 
+}
+.for-her h2 {
+  font-family: "Calligraffitti";
+}
+
+.welcome {
+  background-image: url(/images/home-background.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.for-him {
+  background-image: url(/images/for-him.jpg);
+  min-height: 640px;
+  max-width: 640px;
+  object-fit: cover;
+  object-position: top;
+  background-repeat: no-repeat;
+}
+
+.for-her {
+  background-image: url(/images/for-her.jpg);
+  min-height: 640px;
+  max-width: 640px;
+  object-fit: cover;
+  object-position: top;
+  background-repeat: no-repeat;
+}
+
+.signup_background {
+  background-image: url(/images/blue-mountains.jpg);
+  min-height: 637px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Jackets for men */
+
+.men_image {
+  background-image: url(/images/men.jpg);
+  min-height: 602px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  
+
+}
+

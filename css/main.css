@@ -74,3 +74,39 @@ body {
   background-position-y: center;
 }
 
+/* Our jackets */
+
+.exploring_image {
+  background-image: url(/images/exploring.jpg);
+  min-height: 310px;
+  max-width: 310px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.camping_image {
+  background-image: url(/images/camping.jpg);
+  min-height: 310px;
+  max-width: 310px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hiking_image {
+  background-image: url(/images/hiking.jpg);
+  min-height: 310px;
+  max-width: 310px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skiing_image {
+  background-image: url(/images/skiing.jpg);
+  min-height: 310px;
+  max-width: 310px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+ 

@@ -7,12 +7,12 @@
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  box-shadow: 1px 1px 6px #686767;
+  box-shadow: 1px 1px 1px #686767;
 }
 
 .secondary {
   background-color: #FAFAFA;
   color: #18778D;
-  border: #18778D;
+  border: solid 1px #18768D;
   text-transform: capitalize;
 }

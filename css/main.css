@@ -61,7 +61,7 @@ body {
   min-height: 602px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: ;
+  background-position-y: center;
 }
 
 /* Jackets for women */
@@ -71,7 +71,6 @@ body {
   min-height: 602px;
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover;
-  object-position: center;
+  background-position-y: center;
 }
 

@@ -1,0 +1,19 @@
+.button {
+  background-color: #18768D;
+  border-radius: 3px;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 1px 1px 6px #686767;
+  
+}
+
+.secondary {
+  background-color: #FAFAFA;
+  color: #18778D;
+  border: #18778D;
+  text-transform: capitalize;
+}

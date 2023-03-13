@@ -45,6 +45,15 @@ body {
   object-position: center;
 }
 
+.about_image {
+  background-image: url(/images/about-picture.jpg);
+  min-height: 602px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Jackets for men */
 
 .men_image {
@@ -52,9 +61,17 @@ body {
   min-height: 602px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: ;
+}
+
+/* Jackets for women */
+
+.women_image {
+  background-image: url(/images/women.jpg);
+  min-height: 602px;
+  background-size: cover;
+  background-repeat: no-repeat;
   object-fit: cover;
   object-position: center;
-  
-
 }
 

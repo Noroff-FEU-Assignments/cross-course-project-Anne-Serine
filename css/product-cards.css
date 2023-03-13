@@ -51,8 +51,22 @@
 .peach {
   background-color: #FF8653;
 }
+.pink {
+  background-color: #F8B3B7;
+}
+
+.sky-blue {
+  background-color: #366C92;
+}
 
 .jacket_image {
   max-width: 181px;
   width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
 }

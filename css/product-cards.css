@@ -72,6 +72,16 @@
   width: 100%;
 }
 
+.jacket-product_image {
+  max-width: 443px;
+  width: 100%;
+}
+
+.jacket-detail_image {
+  max-width: 100px;
+  width: 100%;
+}
+
 .flex-container {
   display: flex;
   justify-content: space-between;

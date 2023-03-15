@@ -1,12 +1,5 @@
 body {
-  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.for-him h2 {
-  font-family: "Calligraffitti"; 
-}
-.for-her h2 {
-  font-family: "Calligraffitti";
+  background-color: #F4F4F4;
 }
 
 .welcome {

@@ -1,4 +1,44 @@
 header {
   background-color: #E4EBED;
+  padding: 20px 70px 5px 70px;
 }
 
+.logo_image {
+  max-width: 195px;
+  max-height: 96px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: inherit;
+}
+
+nav li {
+  padding: 0px;
+  display: inline-block;
+
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.current {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  
+}

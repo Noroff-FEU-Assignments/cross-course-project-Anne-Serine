@@ -22,3 +22,6 @@ h4 {
   font-family: "Calligraffitti";
 }
 
+img {
+  min-width: 25px;
+}

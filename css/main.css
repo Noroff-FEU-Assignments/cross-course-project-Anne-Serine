@@ -43,8 +43,16 @@ body {
   min-height: 602px;
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover;
-  object-position: center;
+  
+}
+
+.contact_image {
+  background-image: url(/images/resized/contact-us.jpg);
+  min-height: 602px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+
 }
 
 /* Jackets for men */

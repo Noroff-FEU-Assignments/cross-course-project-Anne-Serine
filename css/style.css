@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
+
+@import "base.css";
 @import "header.css";
 @import "main.css";
 @import "layout.css";
@@ -10,22 +12,6 @@
 @import "product-cards.css";
 @import "footer.css";
 
-body {
-  font-family: "Poppins" , Verdana, Geneva, Tahoma, sans-serif;
-}
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Montserrat" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.for-him h2 {
-  font-family: "Calligraffitti"; 
-}
-.for-her h2 {
-  font-family: "Calligraffitti";
-}
 
 

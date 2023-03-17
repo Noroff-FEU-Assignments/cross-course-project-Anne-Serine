@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" , Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.for-him h2 {
+  font-family: "Calligraffitti"; 
+}
+.for-her h2 {
+  font-family: "Calligraffitti";
+}
+

@@ -1,3 +1,108 @@
 footer {
   background-color: #8FBBC6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+footer .content-box {
+  align-items: flex-start;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+footer h3 {
+  color: #F4F4F4;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.bottom-line {
+  background-color: #E3EBED;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.map-pin {
+  display: flex;
+}
+
+.footer-address {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#newsletter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.footer-div {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #222222;
+}
+
+.flex-input {
+  display: flex;
+  gap: 1px;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #newsletter {
+    display: none;
+  } 
+
+  .visa {
+    order: 1;
+  }
+  .mastercard {
+    order: 2;
+  }
+
+  .klarna {
+    order: 3;
+  }
+
+  .paypal {
+    order: 4;
+  }
+
+  .map-pin {
+    order: 5;
+  }
+
+  .copyright {
+    order: 6;
+  }
+
+
+}
+

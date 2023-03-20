@@ -15,7 +15,7 @@
 </head>
 <body>
   <header>
-    <div class="header-container">
+    <div class="content-box">
       <a href="/index.html" class="logo">
         <img src="/images/logo_RainyDays.png" class="logo_image" alt="Rainy Days logo" />
       </a>
@@ -131,13 +131,16 @@
       </div>
     </section>
   </main>
+
   <footer>
-    <div>
+    <div class="content-box">
       <div>
+        <h3>Company</h3>
         <ul>
-          <h3>Company</h3>
-          <a href="/about.html" ><li>About us</li></a>
-          <a href="/contact.html"><li>Contact us</li></a>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/contact.html">Contact us</a></li>
+        </ul>
+        <ul class="footer-address">  
           <li>Rainy Days AS</li>
           <li>Strandgata 215</li>
           <li>5518 Haugesund</li>
@@ -146,8 +149,8 @@
         </ul>
       </div>
       <div>
+        <h3>Shopping guides</h3>
         <ul>
-          <h3>Shopping guides</h3>
           <li>FAQs</li>
           <li>Size guide</li>
           <li>Payment options</li>
@@ -157,30 +160,37 @@
         </ul>
       </div>
       <div>
+        <h3>Delivery</h3>
         <ul>
-          <h3>Delivery</h3>
           <li>Shipping and handling</li>
           <li>Waranty and returns</li>
           <li>Track your order</li>
         </ul>
       </div>
       <div>
-          <h3>Join our newsletter!</h3>
-          <input type="email">
-          <a href="#">Sign up</a>
-          <img src="/icons/visa.svg" />
-          <img src="/icons/mastercard.svg" />
-          <img src="/icons/klarna.svg" />
-          <img src="/icons/paypal.svg" />
+        <h3>Join our newsletter!</h3>
+        <div class="footer-div flex-input">
+          <input type="email" name="newsletter" id="newsletter">
+          <label for="newsletter"></label>
+          <a href="#" class="secondary">Sign up</a>
+        </div>
+        <div class="footer-div payment-icons">
+          <img src="/icons/visa.svg" class="visa" />
+          <img src="/icons/mastercard.svg" class="mastercard" />
+          <img src="/icons/klarna.svg" class="klarna" />
+          <img src="/icons/paypal.svg" class="paypal" />
+        </div>
       </div>
     </div>
-    <div>
-      <div>
-        <img src="/icons/facebook-mono.svg" />
-        <img src="/icons/instagram-mono.svg" />
-        <img src="/icons/youtube.svg" />
-        Copyright &copy; 2023 Rainy Days AS of Norway
-        <a href="/contact.html" ><img src="/icons/map-pin-light.svg"></a>
+    <div class="bottom-line">
+      <div class="content-box">
+        <div class="bottom-icons">
+          <img src="/icons/facebook-mono.svg" />
+          <img src="/icons/instagram-mono.svg" />
+          <img src="/icons/youtube.svg" />
+        </div>
+        <p class="copyright">Copyright &copy; 2023 Rainy Days AS of Norway</p>
+        <a href="/contact.html" ><img src="/icons/map-pin-light.svg" class="map-pin"></a>
       </div>
     </div>
   </footer>

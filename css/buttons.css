@@ -13,7 +13,12 @@
 .secondary {
   background-color: #FAFAFA;
   color: #18778D;
+  border-radius: 3px;
   border: solid 1px #18768D;
   text-transform: capitalize;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 1px #686767;
 }
 

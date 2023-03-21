@@ -14,7 +14,7 @@ footer ul {
   margin-top: 20px;
 }
 
-footer h3 {
+footer h4 {
   color: #F4F4F4;
   text-transform: uppercase;
   padding-top: 30px;
@@ -102,7 +102,4 @@ footer a {
   .copyright {
     order: 6;
   }
-
-
 }
-

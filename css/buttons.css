@@ -8,6 +8,7 @@
   text-align: center;
   text-decoration: none;
   box-shadow: 1px 1px 1px #686767;
+  max-width: 185px;
 }
 
 .secondary {
@@ -19,6 +20,5 @@
   text-decoration: none;
   padding: 10px;
   text-align: center;
-  box-shadow: 1px 1px 1px #686767;
 }
 

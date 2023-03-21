@@ -8,4 +8,10 @@
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
 }

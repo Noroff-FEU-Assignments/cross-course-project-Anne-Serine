@@ -12,6 +12,14 @@ body {
   background-position-y: center;
 }
 
+.shop-welcome {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  max-width: 400px;
+  
+}
+
 .for-him {
   background-image: url(/images/for-him.jpg);
   min-height: 640px;

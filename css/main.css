@@ -94,6 +94,13 @@ body {
   color: #ffffff;
 }
 
+.women-heading {
+  display: block;
+  flex-direction: row;
+  max-width: 580px;
+  padding: 30px;
+}
+
 /* Our jackets */
 
 .exploring_image {

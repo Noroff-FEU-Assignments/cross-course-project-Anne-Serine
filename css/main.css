@@ -73,6 +73,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+  color: #ffffff;
+}
+
+.men-heading {
+  display: block;
+  flex-direction: row;
+  max-width: 580px;
+  padding: 30px;
 }
 
 /* Jackets for women */
@@ -83,6 +91,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+  color: #ffffff;
 }
 
 /* Our jackets */

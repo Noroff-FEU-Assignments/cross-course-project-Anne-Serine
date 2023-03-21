@@ -17,108 +17,112 @@
 
 <body>
   <header>
-    <a href="/index.html">
-      <img src="/images/logo_RainyDays.png" class="logo_image" alt="Rainy Days logo" />
-    </a>
+    <div class="content-box">
+      <a href="/index.html" class="logo">
+        <img src="/images/logo_RainyDays.png" class="logo_image" alt="Rainy Days logo" />
+      </a>
   </header>
 
-  <main>
-    <form>
-      <fieldset>
-        <legend>Checkout</legend>
-        <input type="submit" value="Log in" class="secondary">
-        <div>
-          <label for="first-name" >First name</label>
-          <input type="text" name="first-name" id="first-name">
-        </div>
-        <div>
-          <label for="last-name" >Last name</label>
-          <input type="text" name="last-name" id="last-name">
-        </div>
-        <label for="street-address">Street address</label>
-        <input type="text" name="street-address" id="street-address">
-        <div>
-          <label for="zip-code" >Zip code</label>
-          <input type="text" name="zip-code" id="zip-code">
-        </div>
-        <div>
-          <label for="city" >City</label>
-          <input type="text" name="city" id="city">
-        </div>
-        <label for="email" >Your e-mail address</label>
-        <input type="email" name="email" id="email">
-        <label for="mobile" >Mobile</label>
-        <input type="tel" name="mobile" id="mobile">
-      </fieldset>
+  <section>
+    <div class="content-box">
+      <form>
+        <fieldset>
+          <legend>Checkout</legend>
+          <input type="submit" value="Log in" class="secondary">
+          <div>
+            <label for="first-name" >First name</label>
+            <input type="text" name="first-name" id="first-name">
+          </div>
+          <div>
+            <label for="last-name" >Last name</label>
+            <input type="text" name="last-name" id="last-name">
+          </div>
+          <label for="street-address">Street address</label>
+          <input type="text" name="street-address" id="street-address">
+          <div>
+            <label for="zip-code" >Zip code</label>
+            <input type="text" name="zip-code" id="zip-code">
+          </div>
+          <div>
+            <label for="city" >City</label>
+            <input type="text" name="city" id="city">
+          </div>
+          <label for="email" >Your e-mail address</label>
+          <input type="email" name="email" id="email">
+          <label for="mobile" >Mobile</label>
+          <input type="tel" name="mobile" id="mobile">
+        </fieldset>
 
-      <fieldset>
-        <h4>Shipping method</h4>
-        <div>
-          <input type="radio" value="normal-delivery" name="normal-delivery" id="normal-delivery">
-          <label for="normal-delivery">Normal delivery</label>
-          <p>99 NOK</p>
-        </div>
-        <div> 
-          <input type="radio" value="express-delivery" name="express-delivery" id="express-delivery">
-          <label for="express-delivery">Normal delivery</label>
-          <p>149 NOK</p>
-        </div>
-      </fieldset>
+        <fieldset>
+          <h4>Shipping method</h4>
+          <div>
+            <input type="radio" value="normal-delivery" name="normal-delivery" id="normal-delivery">
+            <label for="normal-delivery">Normal delivery</label>
+            <p>99 NOK</p>
+          </div>
+          <div> 
+            <input type="radio" value="express-delivery" name="express-delivery" id="express-delivery">
+            <label for="express-delivery">Normal delivery</label>
+            <p>149 NOK</p>
+          </div>
+        </fieldset>
 
-      <fieldset>
-        <h4>Payment method</h4>
-        <div>
-          <input type="radio" value="visa-mastercard" name="visa-mastercard" id="visa-mastercard">
-          <label for="visa-mastercard">VISA / Mastercard</label>
-          <img src="/icons/visa.svg">
-          <img src="/icons/mastercard.svg">
-        </div>
-        <div> 
-          <input type="radio" value="klarna" name="klarna" id="klarna">
-          <label for="klarna">Klarna invoice</label>
-          <img src="/icons/klarna.svg">
-        </div>
-        <div> 
-          <input type="radio" value="paypal" name="paypal" id="paypal">
-          <label for="paypal">PayPal</label>
-          <img src="/icons/paypal.svg">
-        </div>
-      </fieldset>
-      <input type="submit" value="Complete order" class="button">
-    </form>
+        <fieldset>
+          <h4>Payment method</h4>
+          <div>
+            <input type="radio" value="visa-mastercard" name="visa-mastercard" id="visa-mastercard">
+            <label for="visa-mastercard">VISA / Mastercard</label>
+            <img src="/icons/visa.svg">
+            <img src="/icons/mastercard.svg">
+          </div>
+          <div> 
+            <input type="radio" value="klarna" name="klarna" id="klarna">
+            <label for="klarna">Klarna invoice</label>
+            <img src="/icons/klarna.svg">
+          </div>
+          <div> 
+            <input type="radio" value="paypal" name="paypal" id="paypal">
+            <label for="paypal">PayPal</label>
+            <img src="/icons/paypal.svg">
+          </div>
+        </fieldset>
+        <input type="submit" value="Complete order" class="button">
+      </form>
 
-    <div>
-      <div>
-        <img src="/images/scott-wp-jacket.png" class="jacket_image">
+      <div class="checkout-summary">
+        <div class="flex-container">
+          <img src="/images/scott-wp-jacket.png" class="jacket_image">
+        </div>
+        <div class="flex-container">
+          <h4>Scott waterproof jacket</h4>
+          <div>
+            <div>
+              <li>Selected color:<div class="box black"></div></li>
+            </div>
+            <div>
+              <li>Selected size:<div class="box rose"></div></li>
+            </div>
+            <div>
+              <li>Quantity: <div>1</div></li>
+            </div>
+          </div>
+          <div>
+            <div>
+              <li>Item price: <div>899 NOK</div></li>
+            </div>
+            <div>
+              <li>Shipping cost: <div>99 NOK</div></li>
+            </div>
+            <div>
+              <li>Total price: <div>998 NOK</div></li>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <h4>Scott waterproof jacket</h4>
-        <div>
-          <div>
-            <li>Selected color:<div class="box black"></div></li>
-          </div>
-          <div>
-            <li>Selected size:<div class="box rose"></div></li>
-          </div>
-          <div>
-            <li>Quantity: <div>1</div></li>
-          </div>
-        </div>
-        <div>
-          <div>
-            <li>Item price: <div>899 NOK</div></li>
-          </div>
-          <div>
-            <li>Shipping cost: <div>99 NOK</div></li>
-          </div>
-          <div>
-            <li>Total price: <div>998 NOK</div></li>
-          </div>
-        </div>
-      </div>
+
     </div>
+  </section>
 
-  </main>
   <footer>
    
   </footer>

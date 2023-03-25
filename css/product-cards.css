@@ -150,3 +150,13 @@ aside ul {
   gap: 5px;
   align-items: center;
 }
+
+/* product page-details */
+
+.product-details {
+  display: block;
+}
+
+.product-details li {
+  
+}

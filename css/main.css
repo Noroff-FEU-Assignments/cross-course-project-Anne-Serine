@@ -3,6 +3,11 @@ body {
   flex-grow: 1;
 }
 
+body a {
+  color: #000000;
+  text-decoration: none;
+}
+
 .welcome {
   background-image: url(/images/home-background.jpg);
   min-height: 85vh;

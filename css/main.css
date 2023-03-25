@@ -5,7 +5,7 @@ body {
 
 .welcome {
   background-image: url(/images/home-background.jpg);
-  min-height: 100vh;
+  min-height: 85vh;
   background-size: cover;
   background-repeat: no repeat;
   background-position-x: center;
@@ -22,22 +22,25 @@ body {
 
 .for-him {
   background-image: url(/images/resized/for-him.jpg);
-  min-height: 640px;
-  max-width: 640px;
-  object-fit: cover;
-  object-position: top;
   background-repeat: no-repeat;
-  display: flex;
+  width: 710px;
+  height: 710px;
+  object-fit: cover;
 }
 
 .for-her {
   background-image: url(/images/for-her.jpg);
-  min-height: 640px;
-  max-width: 640px;
-  object-fit: cover;
-  object-position: top;
   background-repeat: no-repeat;
+  width: 710px;
+  height: 710px;
+  object-fit: cover;
 }
+
+.him-her-section {
+  display: flex;
+  gap: 20px;
+}
+
 
 .signup_background {
   background-image: url(/images/blue-mountains.jpg);

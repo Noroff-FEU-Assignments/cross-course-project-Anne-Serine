@@ -9,6 +9,8 @@
   text-decoration: none;
   box-shadow: 1px 1px 1px #686767;
   max-width: 185px;
+  width: 185px;
+  height: 48px;
 }
 
 .secondary {
@@ -20,5 +22,7 @@
   text-decoration: none;
   padding: 10px;
   text-align: center;
+  width: 185px;
+  height: 48px;
 }
 

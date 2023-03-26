@@ -155,8 +155,9 @@ aside ul {
 
 .product-details {
   display: block;
+  
 }
 
 .product-details li {
-  
+  margin-left: 20px;
 }

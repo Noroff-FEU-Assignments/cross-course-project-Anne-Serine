@@ -1,4 +1,8 @@
 .button {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #18768D;
   border-radius: 3px;
   color: #ffffff;
@@ -14,6 +18,10 @@
 }
 
 .secondary {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #FAFAFA;
   color: #18778D;
   border-radius: 3px;
@@ -30,5 +38,6 @@
 .checkout-button {
   max-width: 100%;
   width: 100%;
+  display: block;
 }
 

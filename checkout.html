@@ -28,9 +28,7 @@
       <form>
         <fieldset>
           <h3>Checkout</h3>
-          <div>
-            <button class="secondary">Log in</button>
-          </div>
+          <button class="secondary checkout-login">Log in</button>
           <div class="checkout-input">
             <div>
               <label for="first-name" >First name</label>
@@ -67,7 +65,7 @@
           <h4>Shipping method</h4>
           <div class="summary-layout">
             <div>
-              <input type="radio" value="normal-delivery" name="normal-delivery" id="normal-delivery">
+              <input type="radio" value="normal-delivery" name="Shipping method" id="normal-delivery" checked>
               <label for="normal-delivery">Normal delivery</label>
             </div>
             <div>
@@ -76,7 +74,7 @@
           </div>
           <div class="summary-layout"> 
             <div>
-              <input type="radio" value="express-delivery" name="express-delivery" id="express-delivery">
+              <input type="radio" value="express-delivery" name="Shipping method" id="express-delivery">
               <label for="express-delivery">Normal delivery</label>
             </div>
             <div>
@@ -89,7 +87,7 @@
           <h4>Payment method</h4>
           <div class="summary-layout">
             <div>
-              <input type="radio" value="visa-mastercard" name="visa-mastercard" id="visa-mastercard">
+              <input type="radio" value="visa-mastercard" name="Payment method" id="visa-mastercard" checked>
               <label for="visa-mastercard">VISA / Mastercard</label>
             </div>
             <div>
@@ -99,7 +97,7 @@
           </div>
           <div class="summary-layout"> 
             <div>
-              <input type="radio" value="klarna" name="klarna" id="klarna">
+              <input type="radio" value="klarna" name="Payment method" id="klarna">
               <label for="klarna">Klarna invoice</label>
             </div>
             <div>
@@ -108,7 +106,7 @@
           </div>
           <div class="summary-layout"> 
             <div>
-              <input type="radio" value="paypal" name="paypal" id="paypal">
+              <input type="radio" value="paypal" name="Payment method" id="paypal">
               <label for="paypal">PayPal</label>
             </div>
             <div>
@@ -116,31 +114,35 @@
             </div>
           </div>
         </fieldset>
-        <a href="/checkout-success.html" class="button checkout-button">Complete order</a>
+        
       </form>
 
-      <div class="checkout-summary">
-        <div class="summary-layout">
-          <div>
-            <img src="/images/scott-wp-jacket.png" class="jacket_image checkout_jacket-picture">
-          </div>
-          <div>
-            <h4>Scott waterproof jacket</h4>
-            <div class="added-to-cart">
-              <li>Selected color:<div class="box black"></div></li>
-              <li>Selected size:<div class="box rose"></div></li>            
-              <li>Quantity: <div>1</div></li> 
+      <div class="sticky">
+        <div class="checkout-summary">
+          <div class="summary-layout">
+            <div>
+              <img src="/images/scott-wp-jacket.png" class="jacket_image checkout_jacket-picture">
             </div>
-            <div class="line"></div>
-            <div class="added-to-cart">
-              <li>Item price: <div>899 NOK</div></li>
-              <li>Shipping cost: <div>99 NOK</div></li>
-              <li>Total price: <div>998 NOK</div></li>
+            <div>
+              <h4>Scott waterproof jacket</h4>
+              <div class="added-to-cart">
+                <li>Selected color:<div class="box black"></div></li>
+                <li>Selected size:<div class="box rose"></div></li>            
+                <li>Quantity: <div>1</div></li> 
+              </div>
+              <div class="line"></div>
+              <div class="added-to-cart">
+                <li>Item price: <div>899 NOK</div></li>
+                <li>Shipping cost: <div>99 NOK</div></li>
+                <li>Total price: <div>998 NOK</div></li>
+              </div>
             </div>
           </div>
         </div>
+        <div>
+          <a href="/checkout-success.html" class="button checkout-button">Complete order</a>
+        </div>
       </div>
-
     </div>
   </section>
 

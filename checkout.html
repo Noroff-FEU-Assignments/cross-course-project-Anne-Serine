@@ -17,76 +17,106 @@
 
 <body>
   <header>
-    <div class="content-box">
+    <div class="content-box checkout-wrapper">
       <a href="/index.html" class="logo">
         <img src="/images/logo_RainyDays.png" class="logo_image" alt="Rainy Days logo" />
       </a>
   </header>
 
   <section>
-    <div class="content-box form-wrapper">
+    <div class="content-box checkout-wrapper">
       <form>
         <fieldset>
-          <legend>Checkout</legend>
-          <input type="submit" value="Log in" class="secondary">
+          <h3>Checkout</h3>
           <div>
-            <label for="first-name" >First name</label>
-            <input type="text" name="first-name" id="first-name">
+            <button class="secondary">Log in</button>
           </div>
-          <div>
-            <label for="last-name" >Last name</label>
-            <input type="text" name="last-name" id="last-name">
+          <div class="checkout-input">
+            <div>
+              <label for="first-name" >First name</label>
+              <input type="text" name="first-name" id="first-name">
+            </div>
+            <div>
+              <label for="last-name" >Last name</label>
+              <input type="text" name="last-name" id="last-name">
+            </div>
+            <div class="input-long">
+              <label for="street-address" >Street address</label>
+              <input type="text" name="street-address" id="street-address">
+            </div>
+            <div>
+              <label for="zip-code" >Zip code</label>
+              <input type="text" name="zip-code" id="zip-code">
+            </div>
+            <div>
+              <label for="city" >City</label>
+              <input type="text" name="city" id="city">
+            </div>
+            <div class="input-long">
+              <label for="email" >Your e-mail address</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="input-long">
+              <label for="mobile" >Mobile</label>
+              <input type="tel" name="mobile" id="mobile">
+            </div>
           </div>
-          <label for="street-address">Street address</label>
-          <input type="text" name="street-address" id="street-address">
-          <div>
-            <label for="zip-code" >Zip code</label>
-            <input type="text" name="zip-code" id="zip-code">
-          </div>
-          <div>
-            <label for="city" >City</label>
-            <input type="text" name="city" id="city">
-          </div>
-          <label for="email" >Your e-mail address</label>
-          <input type="email" name="email" id="email">
-          <label for="mobile" >Mobile</label>
-          <input type="tel" name="mobile" id="mobile">
         </fieldset>
 
         <fieldset>
           <h4>Shipping method</h4>
-          <div>
-            <input type="radio" value="normal-delivery" name="normal-delivery" id="normal-delivery">
-            <label for="normal-delivery">Normal delivery</label>
-            <p>99 NOK</p>
+          <div class="summary-layout">
+            <div>
+              <input type="radio" value="normal-delivery" name="normal-delivery" id="normal-delivery">
+              <label for="normal-delivery">Normal delivery</label>
+            </div>
+            <div>
+              <p>99 NOK</p>
+            </div>
           </div>
-          <div> 
-            <input type="radio" value="express-delivery" name="express-delivery" id="express-delivery">
-            <label for="express-delivery">Normal delivery</label>
-            <p>149 NOK</p>
+          <div class="summary-layout"> 
+            <div>
+              <input type="radio" value="express-delivery" name="express-delivery" id="express-delivery">
+              <label for="express-delivery">Normal delivery</label>
+            </div>
+            <div>
+              <p>149 NOK</p>
+            </div>
           </div>
         </fieldset>
 
         <fieldset>
           <h4>Payment method</h4>
-          <div>
-            <input type="radio" value="visa-mastercard" name="visa-mastercard" id="visa-mastercard">
-            <label for="visa-mastercard">VISA / Mastercard</label>
-            <img src="/icons/visa.svg">
-            <img src="/icons/mastercard.svg">
+          <div class="summary-layout">
+            <div>
+              <input type="radio" value="visa-mastercard" name="visa-mastercard" id="visa-mastercard">
+              <label for="visa-mastercard">VISA / Mastercard</label>
+            </div>
+            <div>
+              <img src="/icons/visa.svg">
+              <img src="/icons/mastercard.svg">
+            </div>
           </div>
-          <div> 
-            <input type="radio" value="klarna" name="klarna" id="klarna">
-            <label for="klarna">Klarna invoice</label>
-            <img src="/icons/klarna.svg">
+          <div class="summary-layout"> 
+            <div>
+              <input type="radio" value="klarna" name="klarna" id="klarna">
+              <label for="klarna">Klarna invoice</label>
+            </div>
+            <div>
+              <img src="/icons/klarna.svg">
+            </div>
           </div>
-          <div> 
-            <input type="radio" value="paypal" name="paypal" id="paypal">
-            <label for="paypal">PayPal</label>
-            <img src="/icons/paypal.svg">
+          <div class="summary-layout"> 
+            <div>
+              <input type="radio" value="paypal" name="paypal" id="paypal">
+              <label for="paypal">PayPal</label>
+            </div>
+            <div>
+              <img src="/icons/paypal.svg">
+            </div>
           </div>
         </fieldset>
-        <a href="/checkout-success.html" class="button">Complete order</a>
+        <a href="/checkout-success.html" class="button checkout-button">Complete order</a>
       </form>
 
       <div class="checkout-summary">

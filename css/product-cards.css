@@ -21,6 +21,7 @@
   gap: 10px;
 }
 
+
 .product-window {
   background-color: #F4F4F4;
   width: 100%;
@@ -88,14 +89,31 @@
   height: 40px;
 }
 
+.scroll-bar {
+  overflow-x: auto;
+  gap: 20px;
+}
+
 /* filter */
 
 .filter {
-  display: grid;
+  background-color: #E3EBED;
+  height: 100%;
+  
   gap: 20px;
   padding: 20px 20px 20px 0px;
   width: 20rem;
   align-self: flex-start;
+}
+
+.filter input {
+  margin-right: 20px;
+}
+
+.filter .box {
+  height: 13px;
+  width: 13px;
+  
 }
 
 aside ul {
@@ -107,17 +125,14 @@ aside ul {
   padding-inline-start: 20px;
 }
 
-
-
-
-
-
 .box {
   height: 10px;
   width: 10px;
   margin-bottom: 10px;
   border: 1px solid black;
 }
+
+
 
 .grey {
   background-color: #737373;

@@ -21,15 +21,13 @@
       <a href="/index.html" class="logo">
         <img src="/images/logo_RainyDays.png" class="logo_image" alt="Rainy Days logo" />
       </a>
-      <div class="mobile-icons">
         <input type="checkbox" id="menu-checkbox" />
-        <label for="menu-checkbox" class="hamburger-icon"><img src="/icons/hamburger-icon.svg"></label>
-        <img src="/icons/search-light.svg" />
-      </div>
+        <label for="menu-checkbox" class="hamburger-icon mobile-icons""><img src="/icons/hamburger-icon.svg"></label>
+        <img src="/icons/search-light.svg" class="mobile-icons" />
       <nav>
         <ul>
           <li><a href="/category/jackets-all.html">Jackets</a></li>
-          <li><a href="/category/jackets-for-women.html" class="current">Women</a></li>
+          <li><a href="/category/jackets-for-women.html">Women</a></li>
           <li><a href="/category/jackets-for-men.html">Men</a></li>
           <li><a href="/contact.html">Contact</a></li>
           <li class="nav-about"><a href="/about.html" >About</a></li>
@@ -63,46 +61,48 @@
 
   <section>
     <div class="content-box">
-      <aside class="filter">  
+      <aside class="filter">
         <div>
-          <h5>Brand</h5>
+          <p>Brand</p>
           <ul>
-            <li><input type="checkbox" />Scott</li>
-            <li><input type="checkbox" />Brisk</li>
-            <li><input type="checkbox" />Galactic</li>
-            <li><input type="checkbox" />Hillstar X</li>
-            <li><input type="checkbox" />Torelli</li>
+            <li><input type="checkbox" id="scott-checkbox"><label for="scott-checkbox">Scott</label></li>
+            <li><input type="checkbox" id="brisk-checkbox"><label for="brisk-checkbox">Brisk</label></li>
+            <li><input type="checkbox" id="galactic-checkbox"><label for="galactic-checkbox">Galactic</label></li>
+            <li><input type="checkbox" id="hillstar-x-checkbox"><label for="hillstar-x-checkbox">Hillstar X</label></li>
+            <li><input type="checkbox" id="torelli-checkbox"><label for="torelli-checkbox">Torelli</label></li>
           </ul>
         </div>
         <div>
-          <h5>Type</h5>
+          <p>Type</p>
           <ul>
-            <li><input type="checkbox" />Waterproof</li>
-            <li><input type="checkbox" />Softshell</li>
-            <li><input type="checkbox" />Winter</li>
-            <li><input type="checkbox" />Water resistant</li>
+            <li><input type="checkbox" id="waterproof-checkbox"><label for="waterproof-checkbox">Waterproof</label></li>
+            <li><input type="checkbox" id="softshell-checkbox"><label for="softshell-checkbox">Softshell</label></li>
+            <li><input type="checkbox" id="winter-checkbox"><label for="winter-checkbox">Winter</label></li>
+            <li><input type="checkbox" id="water-resistant-checkbox"><label for="water-resistant-checkbox">Water resistant</label></li>
           </ul>         
         </div>
         <div>
-          <h5>Color</h5>
-          <ul>
-            <li><div class="box black"></div>Black</li>
-            <li><div class="box blue"></div>Blue</li>
-            <li><div class="box green"></div>Green</li>
-            <li><div class="box yellow"></div>Yellow</li>
-            <li><div class="box orange"></div>Orange</li>
-            <li><div class="box red"></div>Red</li>
-            <li><div class="box grey"></div>Grey</li>
-          </ul>
+          <p>Color</p>
+          <div>
+            <ul>
+              <li><div class="box black"></div>Black</li>
+              <li><div class="box blue"></div>Blue</li>
+              <li><div class="box green"></div>Green</li>
+              <li><div class="box yellow"></div>Yellow</li>
+              <li><div class="box orange"></div>Orange</li>
+              <li><div class="box red"></div>Red</li>
+              <li><div class="box grey"></div>Grey</li>
+            </ul>
+          </div>
         </div>
         <div>
-          <h5>Size</h5>
+          <p>Size</p>
           <ul>
-            <li><input type="checkbox" />Small</li>
-            <li><input type="checkbox" />Medium</li>
-            <li><input type="checkbox" />Large</li>
-            <li><input type="checkbox" />Extra large</li>
-            <li><input type="checkbox" />2x extra large</li>
+            <li><input type="checkbox" id="small-checkbox"><label for="small-checkbox">Small</label></li>
+            <li><input type="checkbox" id="medium-checkbox"><label for="medium-checkbox">Medium</label></li>
+            <li><input type="checkbox" id="large-checkbox"><label for="large-checkbox">Large</label></li>
+            <li><input type="checkbox" id="extra-large-checkbox"><label for="extra-large-checkbox">Extra large</label></li>
+            <li><input type="checkbox" id="2x-extra-large-checkbox"><label for="2x-extra-large-checkbox">2x extra large</label></li>
           </ul>
         </div>
       </aside>

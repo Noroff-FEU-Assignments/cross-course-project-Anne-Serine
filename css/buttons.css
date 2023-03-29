@@ -19,7 +19,7 @@
 
 .secondary {
   font-size: 1rem;
-  display: flex;
+  display: initial;
   justify-content: center;
   align-items: center;
   background-color: #FAFAFA;

@@ -21,17 +21,15 @@
       <a href="/index.html" class="logo">
         <img src="/images/logo_RainyDays.png" class="logo_image" alt="Rainy Days logo" />
       </a>
-      <div class="mobile-icons">
         <input type="checkbox" id="menu-checkbox" />
-        <label for="menu-checkbox" class="hamburger-icon"><img src="/icons/hamburger-icon.svg"></label>
-        <img src="/icons/search-light.svg" />
-      </div>
+        <label for="menu-checkbox" class="hamburger-icon mobile-icons""><img src="/icons/hamburger-icon.svg"></label>
+        <img src="/icons/search-light.svg" class="mobile-icons" />
       <nav>
         <ul>
           <li><a href="/category/jackets-all.html">Jackets</a></li>
           <li><a href="/category/jackets-for-women.html">Women</a></li>
           <li><a href="/category/jackets-for-men.html">Men</a></li>
-          <li><a href="/contact.html" class="current">Contact</a></li>
+          <li><a href="/contact.html">Contact</a></li>
           <li class="nav-about"><a href="/about.html" >About</a></li>
           <li class="nav-favorites"><a href="#" >Favorites</a></li>
         </ul>
@@ -49,30 +47,31 @@
   </header>
 
   
-  <section class="contact_image">
-    <h1>Contact us</h1>
-  </section>
+  <section class="contact_image"></section>
   <section>
     <div class="content-box">
       <div>
-        <ul>
-          <li>Rainy Days AS</li>
-          <li>Strandgata 215</li>
-          <li>5518 Haugesund</li>
-          <li>Norway</li>
-          <li>+47 12345678</li>
-        </ul>
-        <li><img src="/icons/facebook-mono.svg">Facebook</li>
-        <li><img src="/icons/instagram-mono.svg">Instagram</li>
-        <img src="/images/map.png" />
+        <h1>Contact us</h1>
+        <div>
+          <ul>
+            <li>Rainy Days AS</li>
+            <li>Strandgata 215</li>
+            <li>5518 Haugesund</li>
+            <li>Norway</li>
+            <li>+47 12345678</li>
+          </ul>
+          <li><img src="/icons/facebook-mono.svg">Facebook</li>
+          <li><img src="/icons/instagram-mono.svg">Instagram</li>
+          <img src="/images/map.png" />
+        </div>
       </div>
 
-      <div>
+      <div class="contact-wrapper">
         <form method="post">
           <fieldset>
             <legend>Send us a message</legend>
             <p>If you have any questions please contact us by submitting this form, and we will get in touch with you.</p>
-            <div>
+            <div class="contact-input">
               <div>
                 <label for="first-name">First name</label>
                 <input type="text" name="first name" id="first-name">
@@ -82,11 +81,15 @@
                 <input type="text" name="last name" id="last-name">
               </div>
             </div>
-            <label for="email">Your e-mail address</label>
-            <input type="email" name="email" id="email">
-            <label for="message">What do you need help for?</label>
-            <textarea id="message" name="message"></textarea>
-            <input type="submit" value="Send" class="cta-secondary">
+            <div>
+              <label for="email">Your e-mail address</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div>
+              <label for="message">What do you need help for?</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <input type="submit" value="Send" class="secondary">
           </fieldset>
         </form>
       </div>

@@ -55,6 +55,7 @@ header .checkout-wrapper {
 .sticky {
   position: sticky;
   top: 20px;
+  margin-top: 18px;
 }
 
 .added-to-cart {
@@ -74,7 +75,8 @@ header .checkout-wrapper {
   background-color: black;
 }
 
-.checkout-input {
+.checkout-input,
+.contact-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -84,5 +86,24 @@ header .checkout-wrapper {
   grid-column: span 2;
 }
 
+/* contact */
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  max-width: 600px;
+  align-items: flex-start;
+}
 
 
+
+
+
+textarea {
+  width: 543px;
+  height: 94px; 
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}

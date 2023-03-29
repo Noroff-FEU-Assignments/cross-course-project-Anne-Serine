@@ -55,6 +55,10 @@ nav a:hover {
   gap: 20px;
 }
 
+.header-icons img {
+  max-height: 25px;
+}
+
 .green-icon:hover {
   filter: invert(36%) sepia(86%) saturate(454%) hue-rotate(144deg) brightness(89%) contrast(88%);
 }
@@ -75,12 +79,14 @@ nav a:hover {
   display: none;
 }
 
-.hamburger-icon {
-  display: flex;
-  align-items: center;
-}
+
 
 @media only screen and (max-width: 600px) {
+
+  nav {
+    z-index: 1;
+  }
+
   nav,
   .heart-icon,
   .search {
@@ -89,7 +95,6 @@ nav a:hover {
 
   .mobile-icons {
     display: flex;
-    gap: 20px;
   }
 
   #menu-checkbox:checked ~ nav {
@@ -97,7 +102,7 @@ nav a:hover {
   }
 
   .logo_image {
-    max-width: 110px;
+    max-width: 100px;
   }
 
   .mobile-icons {
@@ -106,6 +111,8 @@ nav a:hover {
 
   .logo {
     order: 2;
+    flex: 1 1 auto;
+    text-align: center;
   }
 
   .header-icons {

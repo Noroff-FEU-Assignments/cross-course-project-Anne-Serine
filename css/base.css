@@ -45,10 +45,13 @@ body a {
   text-decoration: none;
 }
 
-.text-calligraffitti {
+.text-calligraffitti span {
   font-family: "Calligraffitti"; 
   font-size: 2rem;
+  display: block;
 }
+
+
 
 
 img {

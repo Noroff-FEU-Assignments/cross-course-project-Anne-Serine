@@ -74,7 +74,6 @@ header .checkout-wrapper {
   background-color: black;
 }
 
-
 .checkout-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,20 +85,4 @@ header .checkout-wrapper {
 }
 
 
-
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 2;
-}
-
-.grid-double-input {
-  grid-column: 1/2 2/3;
-  gap: 20px;
-}
-
-.grid-input {
-
-}
 

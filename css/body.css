@@ -21,41 +21,30 @@
   line-height: 1.1;
 }
 
-.for-him {
-  background-image: url(/images/resized/for-him.jpg);
-  background-repeat: no-repeat;
+.for-him_image,
+.for-her_image {
+  max-width: 710px;
   width: 100%;
-  background-size: auto;
   border-radius: 3px;
   box-shadow: 1px 1px 1px #686767;
-  padding: 30px 40px;
-  font-weight: bolder;
-  font-size: 1.5rem;
+  display: block;
+}
+
+
+
+.homepage-teasers {
+  flex: 1 1 0%;
+  position: relative;
+  ;
+}
+
+.teaser-text {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-size: 2rem;
   line-height: 1;
 }
-
-.for-her {
-  background-image: url(/images/resized/for-her.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: auto;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px #686767;
-  padding: 30px 40px;
-  font-weight: bolder;
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-.him-her-section {
-  display: flex;
-  gap: 20px;
-  min-height: 40rem;
-  max-width: 1440px;
-  width: 1440px;
-  width: 100%;
-}
-
 
 
 .signup_background {

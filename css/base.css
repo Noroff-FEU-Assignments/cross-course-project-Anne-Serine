@@ -16,23 +16,23 @@ h4 {
 }
 
 h1 {
-  font-size: 5rem;
+  
 }
 
 h2 {
-  font-size: 3rem;
+  
 }
 
 h3 {
-  font-size: 2.25rem;
+  
 }
 
 h4 {
-  font-size: 1.25rem;
+  
 }
 
 h5 {
-  font-size: 1rem;
+  
 }
 
 body {
@@ -45,12 +45,11 @@ body a {
   text-decoration: none;
 }
 
-.for-him h2 {
+.text-calligraffitti {
   font-family: "Calligraffitti"; 
+  font-size: 2rem;
 }
-.for-her h2 {
-  font-family: "Calligraffitti";
-}
+
 
 img {
   min-width: 25px;

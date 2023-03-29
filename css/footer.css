@@ -14,10 +14,18 @@ footer ul {
   margin-top: 20px;
 }
 
-footer h4 {
+footer p {
   color: #F4F4F4;
   text-transform: uppercase;
+  font-weight: bold;
   padding-top: 30px;
+}
+
+footer .copyright {
+  color: #000000;
+  text-transform: none;
+  font-weight: normal;
+  padding: 0px;
 }
 
 .bottom-line {
@@ -53,7 +61,7 @@ footer h4 {
   padding-bottom: 30px;
 }
 
-footer a {
+footer a:hover {
   text-decoration: underline;
   color: #222222;
 }
@@ -103,3 +111,4 @@ footer a {
     order: 6;
   }
 }
+

@@ -47,20 +47,45 @@
   box-shadow: 1px 1px 1px #686767;
   padding: 25px;
   display: flex;
-  flex: 1 1 20rem;
+  width: 100%;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .product-image-gallery {
-  width: 100%;
-  max-width: 50%;
+  flex: 1 1 20rem;
 }
 
-@media screen and (max-width:600px) {
-  .product-image-gallery {
-    max-width: 100%;
-  }
+.product-image {
+  display: flex;
+  justify-content: center;
+  background-color: #F4F4F4;
+  padding: 20px;
+}
+
+
+
+.product-card-color,
+.product-card-size,
+.product-card-estimated {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-card-size p {
+  background-color: #EAEAEA;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 7px;
+}
+
+.product-card-color div {
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 /* filter */
@@ -157,7 +182,7 @@ aside ul {
 }
 
 .jacket-product_image {
-  max-width: 443px;
+  max-width: 600px;
   width: 100%;
 }
 

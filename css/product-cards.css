@@ -119,6 +119,11 @@
   
 }
 
+.box {
+  height: 13px;
+  width: 13px;
+}
+
 .filter .box {
   height: 13px;
   width: 13px;
@@ -186,9 +191,11 @@ aside ul {
 .dark-blue {
   background-color: #203580;
 }
+
 .peach {
   background-color: #FF8653;
 }
+
 .pink {
   background-color: #F8B3B7;
 }

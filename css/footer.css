@@ -15,7 +15,7 @@ footer ul {
 }
 
 footer p {
-  color: #F4F4F4;
+  color: #093A46;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 30px;
@@ -25,7 +25,9 @@ footer .copyright {
   color: #000000;
   text-transform: none;
   font-weight: normal;
-  padding: 0px;
+  padding-top: 10px;
+  font-size: 0.8rem;
+  padding-right: 5.5rem;
 }
 
 .bottom-line {
@@ -33,6 +35,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   width: 100%;
+  align-content: space-between;
 }
 
 .bottom-icons {

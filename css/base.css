@@ -9,18 +9,9 @@ body {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
   font-family: "Montserrat" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-legend {
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
-
-
 
 body {
   background-color: #F4F4F4;
@@ -38,7 +29,10 @@ body a {
   display: block;
 }
 
-
+legend {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 
 
 img {

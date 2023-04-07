@@ -12,6 +12,7 @@
   justify-content: start;
   flex-direction: column;
   max-width: 400px;
+  width: 100%;
   gap: 30px;
 }
 
@@ -30,21 +31,10 @@
   display: block;
 }
 
-
-
 .homepage-teasers {
   flex: 1 1 20rem;
   position: relative;
 }
-
-.teaser-text {
-  position: absolute;
-  top: 30px;
-  left: 40px;
-  font-size: 2rem;
-  line-height: 1;
-}
-
 
 .signup_background {
   background-image: url(/images/blue-mountains.jpg);
@@ -59,9 +49,11 @@
 .signup-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  line-height: 70px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
 }
 
 .signup-content h3 {
@@ -69,13 +61,17 @@
   font-weight: bolder;
 }
 
+/* about */
+
 .about_image {
-  background-image: url(/images/about-picture.jpg);
-  min-height: 602px;
+  background-image: url(/images/resized/about-picture.jpg);
+  min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  
+  background-position-y: center;
 }
+
+/* contact */
 
 .contact_image {
   background-image: url(/images/resized/contact-us.jpg);

@@ -3,10 +3,15 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 footer .content-box {
   align-items: flex-start;
+}
+
+footer .content-box.footer-content > div {
+  flex: 1 0 17rem;
 }
 
 footer ul {
@@ -54,7 +59,7 @@ footer .copyright {
 
 #newsletter {
   position: relative;
-  display: flex;
+  display: none;
   align-items: center;
   padding: 5px 10px;
 }
@@ -80,38 +85,17 @@ footer a:hover {
   gap: 10px;
 }
 
-@media only screen and (max-width: 600px) {
 
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
+@media only screen and (min-width: 600px) {
 
   #newsletter {
-    display: none;
+    display: flex;
   } 
 
-  .visa {
-    order: 1;
-  }
-  .mastercard {
-    order: 2;
-  }
-
-  .klarna {
+  .map-pin {
     order: 3;
   }
-
-  .paypal {
-    order: 4;
-  }
-
-  .map-pin {
-    order: 5;
-  }
-
-  .copyright {
-    order: 6;
-  }
+  
 }
 

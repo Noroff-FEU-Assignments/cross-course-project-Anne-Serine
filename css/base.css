@@ -6,14 +6,6 @@
 
 body {
   font-family: "Poppins" , Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h1,
-h2 {
-  font-family: "Montserrat" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
   background-color: #F4F4F4;
   flex-grow: 1;
 }
@@ -23,10 +15,35 @@ body a {
   text-decoration: none;
 }
 
+h1,
+h2 {
+  font-family: "Montserrat" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.summary-layout h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 .text-calligraffitti span {
   font-family: "Calligraffitti"; 
   font-size: 2rem;
   display: block;
+}
+
+.teaser-text {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  font-size: 2rem;
+  line-height: 1;
 }
 
 legend {

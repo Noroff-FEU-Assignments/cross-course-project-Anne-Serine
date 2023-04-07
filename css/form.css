@@ -30,9 +30,13 @@ fieldset {
 }
 
 .summary-layout {
-  display: flex;
+  display: grid;
   justify-content: space-between;
   margin-top: 20px;
+  grid-auto-columns: ;
+  flex-direction: column;
+  grid-column: 1fr 1fr;
+  grid-template-columns: 30% 1fr;
 }
 
 .checkout-wrapper {
@@ -41,15 +45,15 @@ fieldset {
   gap: 20px;
   max-width: 1000px;
   align-items: flex-start;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 header .checkout-wrapper {
-  margin: 0px;
+  margin-bottom: 0;
 }
 
 .checkout_jacket-picture {
-  width: 80px;
+  min-width: 5rem%;
 }
 
 .sticky {

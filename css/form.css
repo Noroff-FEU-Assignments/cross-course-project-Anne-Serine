@@ -33,7 +33,6 @@ fieldset {
   display: grid;
   justify-content: space-between;
   margin-top: 20px;
-  grid-auto-columns: ;
   flex-direction: column;
   grid-column: 1fr 1fr;
   grid-template-columns: 30% 1fr;
@@ -53,7 +52,7 @@ header .checkout-wrapper {
 }
 
 .checkout_jacket-picture {
-  min-width: 5rem%;
+  min-width: 5rem;
 }
 
 .sticky {

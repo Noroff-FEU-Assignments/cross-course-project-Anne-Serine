@@ -120,39 +120,48 @@
 
 /* Our jackets */
 
-
-
-.exploring_image {
-  background-image: url(/images/exploring.jpg);
+.category-box {
   min-height: 310px;
-  max-width: 310px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: #ffffff;
+  position: relative;
+}
+
+.category-box::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  opacity: 0.3;
+}
+
+.category-box > * {
+  display: flex;
+  z-index: 1;
+}
+
+.exploring_image {
+  background-image: url(/images/resized/exploring.jpg);
 }
 
 .camping_image {
-  background-image: url(/images/camping.jpg);
-  min-height: 310px;
-  max-width: 310px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(/images/resized/camping.jpg);
 }
 
 .hiking_image {
-  background-image: url(/images/hiking.jpg);
-  min-height: 310px;
-  max-width: 310px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(/images/resized/hiking.jpg);
 }
 
 .skiing_image {
-  background-image: url(/images/skiing.jpg);
-  min-height: 310px;
-  max-width: 310px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
+  background-image: url(/images/resized/skiing.jpg);
 }
 
 /* checkout-success */

@@ -54,4 +54,5 @@ legend {
 
 img {
   min-width: 25px;
+  max-width: 100%;
 }

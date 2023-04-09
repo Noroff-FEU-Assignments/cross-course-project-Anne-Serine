@@ -53,16 +53,16 @@
       <div>
         <h1>Contact us</h1>
         <div>
-          <ul>
+          <ul class="contact-info">
             <li>Rainy Days AS</li>
             <li>Strandgata 215</li>
             <li>5518 Haugesund</li>
             <li>Norway</li>
             <li>+47 12345678</li>
           </ul>
-          <li><img src="/icons/facebook-mono.svg" alt="facebook icon">Facebook</li>
-          <li><img src="/icons/instagram-mono.svg" alt="instagram icon">Instagram</li>
-          <img src="/images/map.png" alt="A map of the Rainy Days location">
+          <a href="#" class="some-link"><img src="/icons/facebook-mono.svg" alt="facebook icon">Facebook</a>
+          <a href="#" class="some-link"><img src="/icons/instagram-mono.svg" alt="instagram icon">Instagram</a>
+          <img src="/images/map.png" class="contact-map" alt="A map of the Rainy Days location">
         </div>
       </div>
 
@@ -80,14 +80,14 @@
                 <label for="last-name">Last name</label>
                 <input type="text" name="last name" id="last-name">
               </div>
-            </div>
-            <div>
-              <label for="email">Your e-mail address</label>
-              <input type="email" name="email" id="email">
-            </div>
-            <div>
-              <label for="message">What do you need help for?</label>
-              <textarea id="message" name="message"></textarea>
+              <div class="input-long">
+                <label for="email">Your e-mail address</label>
+                <input type="email" name="email" id="email">
+              </div>
+              <div class="input-long">
+                <label for="message">What do you need help for?</label>
+                <textarea id="message" name="message"></textarea>
+              </div>
             </div>
             <input type="submit" value="Send" class="secondary">
           </fieldset>

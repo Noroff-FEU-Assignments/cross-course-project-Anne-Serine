@@ -61,11 +61,24 @@
   font-weight: bolder;
 }
 
+.hero-heading {
+  max-width: 580px;
+  
+}
+
+.white {
+  color: #ffffff;
+}
+
+.hero-heading h1 {
+  font-size: 3rem;
+}
+
 /* about */
 
 .about_image {
   background-image: url(/images/resized/about-picture.jpg);
-  min-height: 500px;
+  min-height: 602px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -82,6 +95,15 @@
 
 }
 
+.some-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  max-width: max-content;
+}
+
+
 /* Jackets for men */
 
 .men_image {
@@ -90,14 +112,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
-  color: #ffffff;
-}
-
-.men-heading {
-  display: block;
-  flex-direction: row;
-  max-width: 580px;
-  padding: 30px;
 }
 
 /* Jackets for women */
@@ -108,17 +122,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
-  color: #ffffff;
 }
 
-.women-heading {
-  display: block;
-  flex-direction: row;
-  max-width: 580px;
-  padding: 30px;
-}
 
 /* Our jackets */
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 20px;
+  width: 100%;
+  flex: 1 1 44rem;
+}
+
 
 .category-box {
   min-height: 310px;
@@ -191,9 +207,22 @@
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1250px) {
   .shop-welcome {
     align-self: unset;
+  }
+
+  .hero-heading h1 {
+    font-size: 4rem;
+  }
+
+  .hero-container {
+    max-width: 700px;
+  }
+
+  .hero-category-heading {
+    margin: auto;
+    max-width: 350px;
   }
 }
  

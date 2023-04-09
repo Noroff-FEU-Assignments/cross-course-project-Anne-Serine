@@ -190,12 +190,13 @@
   width: 100%;
   display: block;
   text-align: center;
-  padding: 80px 100px;
-  margin: 150px;
-  line-height: 50px;
+  padding: 80px 20px;
+  margin: 50px auto;
 }
 
-
+.checkout-success > * {
+  margin: 10px 0px;
+}
 
 /* about */
 

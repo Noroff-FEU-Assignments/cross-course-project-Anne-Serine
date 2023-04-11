@@ -82,6 +82,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+  background-position-x: 35%;
 }
 
 .about-text {
@@ -128,6 +129,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
+  background-position-x: 50%;
 }
 
 .some-link {

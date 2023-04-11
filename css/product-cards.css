@@ -106,15 +106,15 @@
 
 .filter {
   background-color: #E3EBED;
-  height: 100%;
+
   gap: 20px;
   padding: 20px 20px 20px 20px;
   width: 20rem;
   flex-direction: column;
   display: none;
-  max-height: 100vh;
+  max-height: 100%;
   max-width: -moz-available;
-  margin-right: 18px;
+  margin-right: 20px;
 }
 
 
@@ -295,7 +295,7 @@ aside ul {
     align-self: flex-start;
     flex-direction: column;
     display: none;
-    max-height: 100%;
+    height: 100%;
   }
 
 }

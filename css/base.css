@@ -66,8 +66,17 @@ legend {
   font-weight: bolder;
 }
 
-
 img {
   min-width: 25px;
   max-width: 100%;
+}
+
+.price {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.detail-price {
+  font-size: 2rem;
+  font-weight: bold;
 }

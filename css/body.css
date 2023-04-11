@@ -17,7 +17,7 @@
 }
 
 .shop-welcome h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   line-height: 1.1;
 }
@@ -57,7 +57,7 @@
 }
 
 .signup-content h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bolder;
 }
 
@@ -84,6 +84,42 @@
   background-position-y: center;
 }
 
+.about-text {
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #686767;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-text h1,
+h2 {
+  text-align: center;
+  line-height: 1;
+}
+
+.about-text h2 {
+  font-size: 1.5rem;
+}
+
+
+
+.about-list {
+  list-style: square;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  padding: 20px;
+}  
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+}
+
 /* contact */
 
 .contact_image {
@@ -92,7 +128,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
-
 }
 
 .some-link {
@@ -202,13 +237,16 @@
   margin: 10px 0px;
 }
 
-/* about */
 
-.about-text {
-  background-color: #ffffff;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px #686767;
-  padding: 30px;
+@media screen and (min-width: 960px) {
+  
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 20%;
+    flex: 0 1 auto;
+    gap: 30px;
+}
+
 }
 
 

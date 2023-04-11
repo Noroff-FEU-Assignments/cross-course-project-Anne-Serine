@@ -102,17 +102,21 @@
 
 /* filter */
 
+
+
 .filter {
   background-color: #E3EBED;
   height: 100%;
   gap: 20px;
   padding: 20px 20px 20px 20px;
   width: 20rem;
-  align-self: flex-start;
   flex-direction: column;
   display: none;
-  
+  max-height: 73vh;
+  max-width: -moz-available;
+  margin-right: 18px;
 }
+
 
 .filter input {
   margin-right: 20px;
@@ -122,6 +126,24 @@
   display: flex;
   align-items: center;
   
+}
+
+.filter-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 1 100%;
+}
+
+#filter-checkbox {
+  display: none;
+}
+
+#filter-checkbox:checked ~ aside {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
 }
 
 .box {
@@ -257,4 +279,24 @@ aside ul {
   .filter {
     display: flex;
   }
+
+  .filter-menu {
+    display: none;
+  }
+
+  #filter-checkbox:checked ~ aside {
+    display: flex;
+    position: relative;
+    top: 0%;
+  }
+
+  .filter {
+  
+    align-self: flex-start;
+    flex-direction: column;
+    display: none;
+    max-height: 100%;
+  }
+
 }
+

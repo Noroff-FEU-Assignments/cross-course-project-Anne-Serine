@@ -180,23 +180,7 @@
   background-image: url(/images/resized/skiing.jpg);
 }
 
-.filter-menu {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex: 1 1 100%;
-}
 
-#filter-checkbox {
-  display: none;
-}
-
-#filter-checkbox:checked ~ aside {
-  display: flex;
-  position: absolute;
-  z-index: 10;
-  top: 50px;
-}
 
 
 
@@ -247,12 +231,5 @@
   }
 }
  
-@media screen and (min-width: 769px) {
 
-  .filter-menu {
-    display: none;
-  }
-
-  
-}
   

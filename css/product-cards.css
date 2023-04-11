@@ -291,10 +291,9 @@ aside ul {
   }
 
   .filter {
-  
+    display: flex;
     align-self: flex-start;
     flex-direction: column;
-    display: none;
     height: 100%;
   }
 

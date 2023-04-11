@@ -15,3 +15,7 @@ section {
   justify-content: center;
 }
 
+.smaller-container {
+  display: flex;
+  max-width: 1000px;
+}

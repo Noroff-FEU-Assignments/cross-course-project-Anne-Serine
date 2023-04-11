@@ -247,6 +247,7 @@ h2 {
     grid-template-columns: 1fr 20%;
     flex: 0 1 auto;
     gap: 30px;
+    max-width: 1000px;
 }
 
 }

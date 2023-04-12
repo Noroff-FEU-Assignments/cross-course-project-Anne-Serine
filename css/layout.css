@@ -11,7 +11,7 @@
 }
 
 .hero-text {
-  align-content: start;
+  align-content: center;
   justify-content: center;
 }
 
@@ -26,21 +26,22 @@ section {
 }
 
 
-
-@media screen and (min-width: 400px) {
-
-  .hero-text {
-    justify-content: end;
-  }
-
-}
-
-@media screen and (min-width: 646px) {
+@media screen and (min-width: 650px) {
   
 .hero-text {
   align-content: center;
   justify-content: end;
 }
+
+.hero-heading {
+  max-width: 450px;
+  margin-right: 40px;
+} 
+
+.hero-heading h1 {
+  font-size: 4rem;
+}
+
 
 
 }

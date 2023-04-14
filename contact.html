@@ -65,29 +65,31 @@
 
       <div class="contact-wrapper">
         <form method="post">
-          <fieldset>
-            <legend>Send us a message</legend>
-            <p>If you have any questions please contact us by submitting this form, and we will get in touch with you.</p>
-            <div class="contact-input">
-              <div>
-                <label for="first-name">First name</label>
-                <input type="text" name="first name" id="first-name">
+          <div class="fieldset-background">
+            <fieldset>
+              <legend>Send us a message</legend>
+              <p>If you have any questions please contact us by submitting this form, and we will get in touch with you.</p>
+              <div class="contact-input">
+                <div>
+                  <label for="first-name">First name</label>
+                  <input type="text" name="first name" id="first-name">
+                </div>
+                <div>
+                  <label for="last-name">Last name</label>
+                  <input type="text" name="last name" id="last-name">
+                </div>
+                <div class="input-long">
+                  <label for="email">Your e-mail address</label>
+                  <input type="email" name="email" id="email">
+                </div>
+                <div class="input-long">
+                  <label for="message">What do you need help for?</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
               </div>
-              <div>
-                <label for="last-name">Last name</label>
-                <input type="text" name="last name" id="last-name">
-              </div>
-              <div class="input-long">
-                <label for="email">Your e-mail address</label>
-                <input type="email" name="email" id="email">
-              </div>
-              <div class="input-long">
-                <label for="message">What do you need help for?</label>
-                <textarea id="message" name="message"></textarea>
-              </div>
-            </div>
-            <input type="button" value="Send" class="secondary">
-          </fieldset>
+              <input type="button" value="Send" class="secondary">
+            </fieldset>
+          </div>
         </form>
       </div>
     </div>

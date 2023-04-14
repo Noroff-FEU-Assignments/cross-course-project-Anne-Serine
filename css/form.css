@@ -14,8 +14,7 @@ input[type="tel"]  {
   margin: 20px 0px 60px 0px;
 }
 
-fieldset {
-  border-style: none;
+.fieldset-background {
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 1px 1px 1px #686767;
@@ -23,6 +22,11 @@ fieldset {
   margin-bottom: 20px;
   padding: 20px;
 }
+
+fieldset {
+  border-style: none;
+}
+
 
 .checkout-summary {
   background-color: #ffffff;
@@ -62,7 +66,6 @@ header .checkout-wrapper {
 .sticky {
   position: sticky;
   top: 20px;
-  margin-top: 18px;
 }
 
 .added-to-cart {

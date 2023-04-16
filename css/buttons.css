@@ -19,6 +19,7 @@
 
 .button:hover {
   background-color: #58a3b5;
+  transition: all 0.2s ease-in-out;
 }
 
 .secondary {
@@ -42,6 +43,7 @@
 .secondary:hover {
   color: #E8A15A;
   border: solid 1px #E8A15A;
+  transition: all 0.2s ease-in-out;
 }
 
 .checkout-button {

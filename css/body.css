@@ -230,7 +230,9 @@
   background-image: url(/images/resized/skiing.jpg);
 }
 
-
+.category-box:hover {
+  transform: scale(1.02);
+}
 
 
 

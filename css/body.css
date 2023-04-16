@@ -196,6 +196,7 @@
   padding: 20px;
   color: #ffffff;
   position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
 .category-box::before {

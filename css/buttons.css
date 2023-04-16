@@ -17,6 +17,10 @@
   height: 48px;
 }
 
+.button:hover {
+  background-color: #58a3b5;
+}
+
 .secondary {
   font-size: 1rem;
   display: initial;
@@ -33,6 +37,11 @@
   min-width: 140px;
   max-width: max-content;
   height: 48px;
+}
+
+.secondary:hover {
+  color: #E8A15A;
+  border: solid 1px #E8A15A;
 }
 
 .checkout-button {

@@ -98,7 +98,7 @@
 }
 
 .about-text h1,
-h2 {
+.about-text h2 {
   text-align: center;
   line-height: 1;
 }
@@ -175,8 +175,6 @@ h2 {
 }
 
 
-
-
 /* Our jackets */
 
 .hero-container {
@@ -186,7 +184,6 @@ h2 {
   width: 100%;
   flex: 1 1 44rem;
 }
-
 
 .category-box {
   background-color: #000000;

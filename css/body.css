@@ -27,7 +27,7 @@
   max-width: 100%;
   width: 100%;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px #686767;
+  box-shadow: 0px 1px 2px #ababab;
   display: block;
 }
 
@@ -89,7 +89,7 @@
 .about-text {
   background-color: #ffffff;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px #686767;
+  box-shadow: 0px 1px 2px #ababab;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -242,7 +242,7 @@
 .checkout-success {
   background-color: #ffffff;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px #686767;
+  box-shadow: 0px 1px 2px #ababab;
   max-width: 1000px;
   width: 100%;
   display: block;

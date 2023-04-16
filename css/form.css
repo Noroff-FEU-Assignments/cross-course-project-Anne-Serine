@@ -27,7 +27,6 @@ fieldset {
   border-style: none;
 }
 
-
 .checkout-summary {
   background-color: #ffffff;
   border-radius: 3px;
@@ -97,6 +96,7 @@ header .checkout-wrapper {
   grid-column: span 2;
 }
 
+
 /* contact */
 
 .contact-info {
@@ -121,7 +121,6 @@ textarea {
   padding: 20px;
   margin-bottom: 20px;
 }
-
 
 
 @media screen and (min-width: 769px) {

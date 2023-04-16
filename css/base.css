@@ -78,6 +78,15 @@ img {
 }
 
 .detail-price {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+
+
+@media screen and (min-width: 600px) {
+  
+  .detail-price {
+    font-size: 2rem;
+  }
+ 
 }

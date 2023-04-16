@@ -29,6 +29,12 @@
   border-radius: 3px;
   box-shadow: 0px 1px 2px #ababab;
   display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+.for-him_image:hover,
+.for-her_image:hover {
+  transform: scale(1.02);
 }
 
 .homepage-teasers {
@@ -75,6 +81,7 @@
   font-size: 3rem;
 }
 
+
 /* about */
 
 .about_image {
@@ -119,6 +126,7 @@
   display: flex;
   justify-content: center;
 }
+
 
 /* contact */
 
@@ -263,7 +271,6 @@
     opacity: 0.35;
   }
   
-  
 }
 
 @media screen and (min-width: 650px) {
@@ -277,8 +284,7 @@
     font-size: 4rem;
   }
   
-  
-  }
+}
 
 @media screen and (min-width: 960px) {
   
@@ -288,8 +294,6 @@
     flex: 0 1 auto;
     gap: 30px;
   }
-
-  
 
 }
 

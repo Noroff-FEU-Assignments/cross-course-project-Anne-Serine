@@ -21,6 +21,7 @@
 .button:hover {
   background-color: #58a3b5;
   text-decoration: none;
+  transform: scale(1.02);
 }
 
 .secondary {
@@ -45,6 +46,7 @@
 .secondary:hover {
   color: #E8A15A;
   border: solid 1px #E8A15A;
+  transform: scale(1.02);
 }
 
 .checkout-button {

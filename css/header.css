@@ -33,8 +33,6 @@ nav ul {
   margin: 0px;
 }
 
-
-
 nav a {
   font-size: 1.2rem;
   padding: 20px;
@@ -76,12 +74,9 @@ nav li,
   order: 5;
 }
 
-
 .header-icons img {
   max-height: 25px;
 }
-
-
 
 .current {
   text-decoration: underline;
@@ -100,12 +95,12 @@ nav li,
   order: 1;
 }
 
+
 @media only screen and (min-width: 370px) {
   .logo_image {
     max-width: 120px;
   }
 
-  
 }
 
 
@@ -174,18 +169,22 @@ nav li,
     filter: invert(45%) sepia(15%) saturate(1447%) hue-rotate(304deg) brightness(96%) contrast(82%);
   }
 
-  
 }
 
+
 @media only screen and (min-width: 1046px) {
+  
   .search {
     max-width: 11rem;
   }
+
 }
 
 @media only screen and (min-width: 1200px) {
+
   .search {
     max-width: 20rem;
   }
+
 }
 

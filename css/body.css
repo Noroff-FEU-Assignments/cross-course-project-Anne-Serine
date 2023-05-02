@@ -271,10 +271,6 @@
     opacity: 0.35;
   }
   
-}
-
-@media screen and (min-width: 650px) {
-  
   .hero-heading {
     max-width: 450px;
     margin-right: 40px;
